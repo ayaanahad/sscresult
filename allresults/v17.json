@@ -1,0 +1,634 @@
+{
+    "version": 17,
+    "app": "allresults",
+    "generated_at": "2026-08-05T15:42:13+00:00",
+    "collections": {
+        "boards": [
+            {
+                "key": "dhaka",
+                "name": "Dhaka",
+                "tier": "free",
+                "order": 1,
+                "nameBn": "ঢাকা",
+                "sms": "DHA",
+                "website": "https://dhakaeducationboard.gov.bd/site/",
+                "websiteUp": true
+            },
+            {
+                "key": "rajshahi",
+                "name": "Rajshahi",
+                "tier": "free",
+                "order": 2,
+                "nameBn": "রাজশাহী",
+                "sms": "RAJ",
+                "website": "https://rajshahieducationboard.gov.bd",
+                "websiteUp": true
+            },
+            {
+                "key": "comilla",
+                "name": "Comilla",
+                "tier": "free",
+                "order": 3,
+                "nameBn": "কুমিল্লা",
+                "sms": "COM",
+                "website": "https://comillaboard.gov.bd",
+                "websiteUp": true
+            },
+            {
+                "key": "jessore",
+                "name": "Jessore",
+                "tier": "free",
+                "order": 4,
+                "nameBn": "যশোর",
+                "sms": "JES",
+                "website": "https://jessoreboard.gov.bd",
+                "websiteUp": true
+            },
+            {
+                "key": "chittagong",
+                "name": "Chittagong",
+                "tier": "free",
+                "order": 5,
+                "nameBn": "চট্টগ্রাম",
+                "sms": "CHI",
+                "website": "https://bise-ctg.gov.bd",
+                "websiteUp": true
+            },
+            {
+                "key": "barisal",
+                "name": "Barisal",
+                "tier": "free",
+                "order": 6,
+                "nameBn": "বরিশাল",
+                "sms": "BAR",
+                "website": "https://barisalboard.gov.bd",
+                "websiteUp": true
+            },
+            {
+                "key": "sylhet",
+                "name": "Sylhet",
+                "tier": "free",
+                "order": 7,
+                "nameBn": "সিলেট",
+                "sms": "SYL",
+                "website": "https://sylhetboard.gov.bd",
+                "websiteUp": false
+            },
+            {
+                "key": "dinajpur",
+                "name": "Dinajpur",
+                "tier": "free",
+                "order": 8,
+                "nameBn": "দিনাজপুর",
+                "sms": "DIN",
+                "website": "https://dinajpureducationboard.gov.bd",
+                "websiteUp": true
+            },
+            {
+                "key": "mymensingh",
+                "name": "Mymensingh",
+                "tier": "free",
+                "order": 9,
+                "nameBn": "ময়মনসিংহ",
+                "sms": "MYM",
+                "website": "https://mymensingheducationboard.gov.bd",
+                "websiteUp": true
+            },
+            {
+                "key": "madrasah",
+                "name": "Madrasah",
+                "tier": "free",
+                "order": 10,
+                "nameBn": "মাদ্রাসা",
+                "sms": "MAD",
+                "website": "https://bmeb.gov.bd",
+                "websiteUp": true
+            },
+            {
+                "key": "tec",
+                "name": "Technical",
+                "tier": "free",
+                "order": 11,
+                "nameBn": "কারিগরি",
+                "sms": "TEC",
+                "website": "https://bteb.gov.bd",
+                "websiteUp": true
+            }
+        ],
+        "upstream": [
+            {
+                "key": "primary",
+                "name": "Result source",
+                "tier": "free",
+                "order": 1,
+                "host": "https://eboardresults.com",
+                "mirrors": [],
+                "paths": {
+                    "captcha": "/v2/captcha",
+                    "getres": "/v2/getres",
+                    "challenge": "/_challenge-engine",
+                    "verify": "/_challenge-verify",
+                    "home": "/v2/home"
+                }
+            }
+        ],
+        "settings": [
+            {
+                "key": "sms",
+                "name": "SMS Fallback",
+                "tier": "free",
+                "order": 1,
+                "number": "16222",
+                "hint": "{EXAM} {CODE} {ROLL} {YEAR}",
+                "cost": "BDT 2.78"
+            },
+            {
+                "key": "schedule",
+                "name": "Result Schedule",
+                "tier": "free",
+                "order": 2,
+                "ssc2026": "2026-08-10T12:00:00+06:00"
+            },
+            {
+                "key": "notice",
+                "name": "Notice Banner",
+                "tier": "free",
+                "order": 3,
+                "show": true,
+                "level": "info",
+                "text": "🎓 Results will be published on 10 August at 12:00 PM https://www.educationboardresults.gov.bd/",
+                "textBn": "🎓 ১০ আগস্ট দুপুর ১২টায় ফলাফল প্রকাশিত হবে https://www.educationboardresults.gov.bd/"
+            },
+            {
+                "key": "links",
+                "name": "Store & Support",
+                "tier": "free",
+                "order": 5,
+                "store": "https://play.google.com/store/apps/details?id=com.allresults.techinternal",
+                "supportEmail": "techinternal@proton.me"
+            }
+        ],
+        "feeds": [
+            {
+                "key": "www-tbsnews-net-1",
+                "name": "TBS News",
+                "tier": "free",
+                "order": 1,
+                "url": "https://www.tbsnews.net/bangladesh/education/rss.xml",
+                "keywords": []
+            },
+            {
+                "key": "www-thedailystar-net-2",
+                "name": "The Daily Star",
+                "tier": "free",
+                "order": 2,
+                "url": "https://www.thedailystar.net/youth/education/rss.xml",
+                "keywords": []
+            },
+            {
+                "key": "www-thedailystar-net-3",
+                "name": "The Daily Star",
+                "tier": "free",
+                "order": 3,
+                "url": "https://www.thedailystar.net/news/bangladesh/education/rss.xml",
+                "keywords": []
+            },
+            {
+                "key": "www-prothomalo-com-4",
+                "name": "প্রথম আলো",
+                "tier": "free",
+                "order": 4,
+                "url": "https://www.prothomalo.com/stories.rss",
+                "keywords": [
+                    "এসএসসি",
+                    "এইচএসসি",
+                    "জেএসসি",
+                    "দাখিল",
+                    "শিক্ষা বোর্ড",
+                    "ফলাফল",
+                    "রেজাল্ট",
+                    "শিক্ষার্থী",
+                    "মাদ্রাসা",
+                    "ভর্তি পরীক্ষা",
+                    "ভর্তি বিজ্ঞপ্তি",
+                    "ভর্তি আবেদন",
+                    "পরীক্ষার ফল"
+                ]
+            },
+            {
+                "key": "www-jagonews24-com-5",
+                "name": "জাগো নিউজ",
+                "tier": "free",
+                "order": 5,
+                "url": "https://www.jagonews24.com/rss/rss.xml",
+                "keywords": [
+                    "এসএসসি",
+                    "এইচএসসি",
+                    "জেএসসি",
+                    "দাখিল",
+                    "শিক্ষা বোর্ড",
+                    "ফলাফল",
+                    "রেজাল্ট",
+                    "শিক্ষার্থী",
+                    "মাদ্রাসা",
+                    "ভর্তি পরীক্ষা",
+                    "ভর্তি বিজ্ঞপ্তি",
+                    "ভর্তি আবেদন",
+                    "পরীক্ষার ফল"
+                ]
+            },
+            {
+                "key": "www-risingbd-com-6",
+                "name": "রাইজিংবিডি",
+                "tier": "free",
+                "order": 6,
+                "url": "https://www.risingbd.com/rss/rss.xml",
+                "keywords": [
+                    "এসএসসি",
+                    "এইচএসসি",
+                    "জেএসসি",
+                    "দাখিল",
+                    "শিক্ষা বোর্ড",
+                    "ফলাফল",
+                    "রেজাল্ট",
+                    "শিক্ষার্থী",
+                    "মাদ্রাসা",
+                    "ভর্তি পরীক্ষা",
+                    "ভর্তি বিজ্ঞপ্তি",
+                    "ভর্তি আবেদন",
+                    "পরীক্ষার ফল"
+                ]
+            },
+            {
+                "key": "www-banglatribune-com-7",
+                "name": "বাংলা ট্রিবিউন",
+                "tier": "free",
+                "order": 7,
+                "url": "https://www.banglatribune.com/feed/educations",
+                "keywords": []
+            }
+        ],
+        "subjects": [
+            {
+                "key": "ssc-101",
+                "name": "Bangla",
+                "tier": "free",
+                "order": 1,
+                "exam": "ssc",
+                "code": "101",
+                "bn": "বাংলা",
+                "group": "common",
+                "role": "core",
+                "paper2": "102"
+            },
+            {
+                "key": "ssc-107",
+                "name": "English",
+                "tier": "free",
+                "order": 2,
+                "exam": "ssc",
+                "code": "107",
+                "bn": "ইংরেজি",
+                "group": "common",
+                "role": "core",
+                "paper2": "108"
+            },
+            {
+                "key": "ssc-109",
+                "name": "Mathematics",
+                "tier": "free",
+                "order": 3,
+                "exam": "ssc",
+                "code": "109",
+                "bn": "গণিত",
+                "group": "common",
+                "role": "core",
+                "paper2": ""
+            },
+            {
+                "key": "ssc-154",
+                "name": "Information & Communication Technology",
+                "tier": "free",
+                "order": 4,
+                "exam": "ssc",
+                "code": "154",
+                "bn": "তথ্য ও যোগাযোগ প্রযুক্তি",
+                "group": "common",
+                "role": "core",
+                "paper2": ""
+            },
+            {
+                "key": "ssc-150",
+                "name": "Bangladesh & Global Studies",
+                "tier": "free",
+                "order": 5,
+                "exam": "ssc",
+                "code": "150",
+                "bn": "বাংলাদেশ ও বিশ্বপরিচয়",
+                "group": "common",
+                "role": "core",
+                "paper2": ""
+            },
+            {
+                "key": "ssc-111",
+                "name": "Islam & Moral Education",
+                "tier": "free",
+                "order": 6,
+                "exam": "ssc",
+                "code": "111",
+                "bn": "ইসলাম ও নৈতিক শিক্ষা",
+                "group": "common",
+                "role": "extra",
+                "paper2": ""
+            },
+            {
+                "key": "ssc-112",
+                "name": "Hindu Religion & Moral Education",
+                "tier": "free",
+                "order": 7,
+                "exam": "ssc",
+                "code": "112",
+                "bn": "হিন্দুধর্ম ও নৈতিক শিক্ষা",
+                "group": "common",
+                "role": "extra",
+                "paper2": ""
+            },
+            {
+                "key": "ssc-113",
+                "name": "Buddhist Religion & Moral Education",
+                "tier": "free",
+                "order": 8,
+                "exam": "ssc",
+                "code": "113",
+                "bn": "বৌদ্ধধর্ম ও নৈতিক শিক্ষা",
+                "group": "common",
+                "role": "extra",
+                "paper2": ""
+            },
+            {
+                "key": "ssc-114",
+                "name": "Christian Religion & Moral Education",
+                "tier": "free",
+                "order": 9,
+                "exam": "ssc",
+                "code": "114",
+                "bn": "খ্রিস্টধর্ম ও নৈতিক শিক্ষা",
+                "group": "common",
+                "role": "extra",
+                "paper2": ""
+            },
+            {
+                "key": "ssc-136",
+                "name": "Physics",
+                "tier": "free",
+                "order": 10,
+                "exam": "ssc",
+                "code": "136",
+                "bn": "পদার্থবিজ্ঞান",
+                "group": "science",
+                "role": "group",
+                "paper2": ""
+            },
+            {
+                "key": "ssc-137",
+                "name": "Chemistry",
+                "tier": "free",
+                "order": 11,
+                "exam": "ssc",
+                "code": "137",
+                "bn": "রসায়ন",
+                "group": "science",
+                "role": "group",
+                "paper2": ""
+            },
+            {
+                "key": "ssc-138",
+                "name": "Biology",
+                "tier": "free",
+                "order": 12,
+                "exam": "ssc",
+                "code": "138",
+                "bn": "জীববিজ্ঞান",
+                "group": "science",
+                "role": "group",
+                "paper2": ""
+            },
+            {
+                "key": "ssc-126",
+                "name": "Higher Mathematics",
+                "tier": "free",
+                "order": 13,
+                "exam": "ssc",
+                "code": "126",
+                "bn": "উচ্চতর গণিত",
+                "group": "science",
+                "role": "fourth",
+                "paper2": ""
+            },
+            {
+                "key": "ssc-146",
+                "name": "Accounting",
+                "tier": "free",
+                "order": 14,
+                "exam": "ssc",
+                "code": "146",
+                "bn": "হিসাববিজ্ঞান",
+                "group": "business",
+                "role": "group",
+                "paper2": ""
+            },
+            {
+                "key": "ssc-143",
+                "name": "Business Entrepreneurship",
+                "tier": "free",
+                "order": 15,
+                "exam": "ssc",
+                "code": "143",
+                "bn": "ব্যবসায় উদ্যোগ",
+                "group": "business",
+                "role": "group",
+                "paper2": ""
+            },
+            {
+                "key": "ssc-152",
+                "name": "Finance & Banking",
+                "tier": "free",
+                "order": 16,
+                "exam": "ssc",
+                "code": "152",
+                "bn": "ফিন্যান্স ও ব্যাংকিং",
+                "group": "business",
+                "role": "group",
+                "paper2": ""
+            },
+            {
+                "key": "ssc-140",
+                "name": "Civics & Citizenship",
+                "tier": "free",
+                "order": 17,
+                "exam": "ssc",
+                "code": "140",
+                "bn": "পৌরনীতি ও নাগরিকতা",
+                "group": "humanities",
+                "role": "group",
+                "paper2": ""
+            },
+            {
+                "key": "ssc-141",
+                "name": "Economics",
+                "tier": "free",
+                "order": 18,
+                "exam": "ssc",
+                "code": "141",
+                "bn": "অর্থনীতি",
+                "group": "humanities",
+                "role": "fourth",
+                "paper2": ""
+            },
+            {
+                "key": "ssc-153",
+                "name": "History of Bangladesh & World Civilisation",
+                "tier": "free",
+                "order": 19,
+                "exam": "ssc",
+                "code": "153",
+                "bn": "বাংলাদেশের ইতিহাস ও বিশ্বসভ্যতা",
+                "group": "humanities",
+                "role": "group",
+                "paper2": ""
+            },
+            {
+                "key": "ssc-110",
+                "name": "Geography & Environment",
+                "tier": "free",
+                "order": 20,
+                "exam": "ssc",
+                "code": "110",
+                "bn": "ভূগোল ও পরিবেশ",
+                "group": "humanities",
+                "role": "group",
+                "paper2": ""
+            },
+            {
+                "key": "ssc-127",
+                "name": "General Science",
+                "tier": "free",
+                "order": 21,
+                "exam": "ssc",
+                "code": "127",
+                "bn": "বিজ্ঞান",
+                "group": "humanities",
+                "role": "group",
+                "paper2": ""
+            },
+            {
+                "key": "ssc-134",
+                "name": "Agricultural Studies",
+                "tier": "free",
+                "order": 22,
+                "exam": "ssc",
+                "code": "134",
+                "bn": "কৃষিশিক্ষা",
+                "group": "common",
+                "role": "extra",
+                "paper2": ""
+            },
+            {
+                "key": "ssc-151",
+                "name": "Home Science",
+                "tier": "free",
+                "order": 23,
+                "exam": "ssc",
+                "code": "151",
+                "bn": "গার্হস্থ্য বিজ্ঞান",
+                "group": "common",
+                "role": "extra",
+                "paper2": ""
+            },
+            {
+                "key": "ssc-148",
+                "name": "Arts & Crafts",
+                "tier": "free",
+                "order": 24,
+                "exam": "ssc",
+                "code": "148",
+                "bn": "চারু ও কারুকলা",
+                "group": "common",
+                "role": "extra",
+                "paper2": ""
+            },
+            {
+                "key": "ssc-147",
+                "name": "Physical Education, Health & Sports",
+                "tier": "free",
+                "order": 25,
+                "exam": "ssc",
+                "code": "147",
+                "bn": "শারীরিক শিক্ষা, স্বাস্থ্যবিজ্ঞান ও খেলাধুলা",
+                "group": "common",
+                "role": "extra",
+                "paper2": ""
+            },
+            {
+                "key": "ssc-156",
+                "name": "Career Education",
+                "tier": "free",
+                "order": 26,
+                "exam": "ssc",
+                "code": "156",
+                "bn": "ক্যারিয়ার শিক্ষা",
+                "group": "common",
+                "role": "extra",
+                "paper2": ""
+            },
+            {
+                "key": "ssc-121",
+                "name": "Arabic",
+                "tier": "free",
+                "order": 27,
+                "exam": "ssc",
+                "code": "121",
+                "bn": "আরবি",
+                "group": "common",
+                "role": "extra",
+                "paper2": ""
+            },
+            {
+                "key": "ssc-123",
+                "name": "Sanskrit",
+                "tier": "free",
+                "order": 28,
+                "exam": "ssc",
+                "code": "123",
+                "bn": "সংস্কৃত",
+                "group": "common",
+                "role": "extra",
+                "paper2": ""
+            },
+            {
+                "key": "ssc-124",
+                "name": "Pali",
+                "tier": "free",
+                "order": 29,
+                "exam": "ssc",
+                "code": "124",
+                "bn": "পালি",
+                "group": "common",
+                "role": "extra",
+                "paper2": ""
+            },
+            {
+                "key": "ssc-149",
+                "name": "Music",
+                "tier": "free",
+                "order": 30,
+                "exam": "ssc",
+                "code": "149",
+                "bn": "সংগীত",
+                "group": "common",
+                "role": "extra",
+                "paper2": ""
+            }
+        ]
+    }
+}
