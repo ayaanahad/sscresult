@@ -1,0 +1,205 @@
+{
+    "version": 5,
+    "app": "allresults",
+    "generated_at": "2026-08-05T08:36:53+00:00",
+    "collections": {
+        "boards": [
+            {
+                "key": "dhaka",
+                "name": "Dhaka",
+                "tier": "free",
+                "order": 1,
+                "nameBn": "ঢাকা",
+                "sms": "DHA",
+                "website": "https://dhakaeducationboard.gov.bd/site/",
+                "websiteUp": true
+            },
+            {
+                "key": "rajshahi",
+                "name": "Rajshahi",
+                "tier": "free",
+                "order": 2,
+                "nameBn": "রাজশাহী",
+                "sms": "RAJ",
+                "website": "https://rajshahieducationboard.gov.bd",
+                "websiteUp": true
+            },
+            {
+                "key": "comilla",
+                "name": "Comilla",
+                "tier": "free",
+                "order": 3,
+                "nameBn": "কুমিল্লা",
+                "sms": "COM",
+                "website": "https://comillaboard.gov.bd",
+                "websiteUp": true
+            },
+            {
+                "key": "jessore",
+                "name": "Jessore",
+                "tier": "free",
+                "order": 4,
+                "nameBn": "যশোর",
+                "sms": "JES",
+                "website": "https://jessoreboard.gov.bd",
+                "websiteUp": true
+            },
+            {
+                "key": "chittagong",
+                "name": "Chittagong",
+                "tier": "free",
+                "order": 5,
+                "nameBn": "চট্টগ্রাম",
+                "sms": "CHI",
+                "website": "https://bise-ctg.gov.bd",
+                "websiteUp": true
+            },
+            {
+                "key": "barisal",
+                "name": "Barisal",
+                "tier": "free",
+                "order": 6,
+                "nameBn": "বরিশাল",
+                "sms": "BAR",
+                "website": "https://barisalboard.gov.bd",
+                "websiteUp": true
+            },
+            {
+                "key": "sylhet",
+                "name": "Sylhet",
+                "tier": "free",
+                "order": 7,
+                "nameBn": "সিলেট",
+                "sms": "SYL",
+                "website": "https://sylhetboard.gov.bd",
+                "websiteUp": false
+            },
+            {
+                "key": "dinajpur",
+                "name": "Dinajpur",
+                "tier": "free",
+                "order": 8,
+                "nameBn": "দিনাজপুর",
+                "sms": "DIN",
+                "website": "https://dinajpureducationboard.gov.bd",
+                "websiteUp": true
+            },
+            {
+                "key": "mymensingh",
+                "name": "Mymensingh",
+                "tier": "free",
+                "order": 9,
+                "nameBn": "ময়মনসিংহ",
+                "sms": "MYM",
+                "website": "https://mymensingheducationboard.gov.bd",
+                "websiteUp": true
+            },
+            {
+                "key": "madrasah",
+                "name": "Madrasah",
+                "tier": "free",
+                "order": 10,
+                "nameBn": "মাদ্রাসা",
+                "sms": "MAD",
+                "website": "https://bmeb.gov.bd",
+                "websiteUp": true
+            },
+            {
+                "key": "tec",
+                "name": "Technical",
+                "tier": "free",
+                "order": 11,
+                "nameBn": "কারিগরি",
+                "sms": "TEC",
+                "website": "https://bteb.gov.bd",
+                "websiteUp": true
+            }
+        ],
+        "upstream": [
+            {
+                "key": "primary",
+                "name": "Result source",
+                "tier": "free",
+                "order": 1,
+                "host": "https://eboardresults.com",
+                "mirrors": [
+                    "https://www.educationboardresults.gov.bd"
+                ],
+                "paths": {
+                    "captcha": "/v2/captcha",
+                    "getres": "/v2/getres",
+                    "challenge": "/_challenge-engine",
+                    "verify": "/_challenge-verify",
+                    "home": "/v2/home"
+                },
+                "official": "https://www.educationboardresults.gov.bd"
+            }
+        ],
+        "settings": [
+            {
+                "key": "sms",
+                "name": "SMS Fallback",
+                "tier": "free",
+                "order": 1,
+                "number": "16222",
+                "hint": "{EXAM} {CODE} {ROLL} {YEAR}"
+            },
+            {
+                "key": "schedule",
+                "name": "Result Schedule",
+                "tier": "free",
+                "order": 2,
+                "ssc2026": "2026-08-10T12:00:00+06:00"
+            },
+            {
+                "key": "notice",
+                "name": "Notice Banner",
+                "tier": "free",
+                "order": 3,
+                "show": true,
+                "level": "info",
+                "text": "Results will be soon release",
+                "textBn": "Results will be soon release"
+            }
+        ],
+        "news": [
+            {
+                "key": "ssc-result-date",
+                "name": "SSC and equivalent results publish on 10 August",
+                "tier": "free",
+                "order": 1,
+                "thumb": "https://admin.itforeveryone.top/cdn/news/ssc-2026.jpg",
+                "titleBn": "এসএসসি ও সমমানের ফলাফল ১০ আগস্ট প্রকাশ",
+                "summary": "The Inter-Education Board Coordination Committee has confirmed that SSC, Dakhil and equivalent results for 2026 will be published simultaneously across all boards on 10 August at 12:00 PM.",
+                "summaryBn": "আন্তঃশিক্ষা বোর্ড সমন্বয় কমিটি জানিয়েছে, ২০২৬ সালের এসএসসি, দাখিল ও সমমানের পরীক্ষার ফলাফল ১০ আগস্ট দুপুর ১২টায় সব বোর্ডে একযোগে প্রকাশ করা হবে।",
+                "source": "The Daily Star",
+                "date": "2026-08-03",
+                "url": "https://www.thedailystar.net/news/education/news/ssc-equivalent-results-be-published-august-10-4233796"
+            },
+            {
+                "key": "how-to-check",
+                "name": "How to check your result on publication day",
+                "tier": "free",
+                "order": 2,
+                "titleBn": "ফল প্রকাশের দিন যেভাবে ফলাফল দেখবেন",
+                "summary": "Results can be checked in this app, on the education board website, or by SMS. On result day the official website is usually overloaded for several hours, so the SMS option is worth knowing.",
+                "summaryBn": "এই অ্যাপে, শিক্ষা বোর্ডের ওয়েবসাইটে অথবা এসএমএসের মাধ্যমে ফলাফল দেখা যাবে। ফল প্রকাশের দিন সরকারি ওয়েবসাইট কয়েক ঘণ্টা ব্যস্ত থাকে, তাই এসএমএস পদ্ধতি জেনে রাখা ভালো।",
+                "source": "Education Board",
+                "date": "2026-08-04",
+                "url": "https://eboardresults.com/v2/home"
+            },
+            {
+                "key": "rescrutiny",
+                "name": "Rescrutiny applications open after results",
+                "tier": "free",
+                "order": 3,
+                "titleBn": "ফল প্রকাশের পর পুনঃনিরীক্ষণের আবেদন শুরু",
+                "summary": "Students who wish to have a paper re-examined can apply by SMS within the window announced by their board, usually starting the day after publication. A fee applies per paper.",
+                "summaryBn": "যেসব শিক্ষার্থী খাতা পুনঃনিরীক্ষণ করাতে চান, তারা বোর্ড ঘোষিত সময়ের মধ্যে এসএমএসের মাধ্যমে আবেদন করতে পারবেন — সাধারণত ফল প্রকাশের পরদিন থেকে। প্রতি পত্রের জন্য নির্ধারিত ফি প্রযোজ্য।",
+                "source": "Education Board",
+                "date": "2026-08-04",
+                "url": "https://eboardresults.com/v2/home"
+            }
+        ]
+    }
+}
