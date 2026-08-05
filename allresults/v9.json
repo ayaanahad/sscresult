@@ -1,0 +1,251 @@
+{
+    "version": 9,
+    "app": "allresults",
+    "generated_at": "2026-08-05T12:01:09+00:00",
+    "collections": {
+        "boards": [
+            {
+                "key": "dhaka",
+                "name": "Dhaka",
+                "tier": "free",
+                "order": 1,
+                "nameBn": "ঢাকা",
+                "sms": "DHA",
+                "website": "https://dhakaeducationboard.gov.bd/site/",
+                "websiteUp": true
+            },
+            {
+                "key": "rajshahi",
+                "name": "Rajshahi",
+                "tier": "free",
+                "order": 2,
+                "nameBn": "রাজশাহী",
+                "sms": "RAJ",
+                "website": "https://rajshahieducationboard.gov.bd",
+                "websiteUp": true
+            },
+            {
+                "key": "comilla",
+                "name": "Comilla",
+                "tier": "free",
+                "order": 3,
+                "nameBn": "কুমিল্লা",
+                "sms": "COM",
+                "website": "https://comillaboard.gov.bd",
+                "websiteUp": true
+            },
+            {
+                "key": "jessore",
+                "name": "Jessore",
+                "tier": "free",
+                "order": 4,
+                "nameBn": "যশোর",
+                "sms": "JES",
+                "website": "https://jessoreboard.gov.bd",
+                "websiteUp": true
+            },
+            {
+                "key": "chittagong",
+                "name": "Chittagong",
+                "tier": "free",
+                "order": 5,
+                "nameBn": "চট্টগ্রাম",
+                "sms": "CHI",
+                "website": "https://bise-ctg.gov.bd",
+                "websiteUp": true
+            },
+            {
+                "key": "barisal",
+                "name": "Barisal",
+                "tier": "free",
+                "order": 6,
+                "nameBn": "বরিশাল",
+                "sms": "BAR",
+                "website": "https://barisalboard.gov.bd",
+                "websiteUp": true
+            },
+            {
+                "key": "sylhet",
+                "name": "Sylhet",
+                "tier": "free",
+                "order": 7,
+                "nameBn": "সিলেট",
+                "sms": "SYL",
+                "website": "https://sylhetboard.gov.bd",
+                "websiteUp": false
+            },
+            {
+                "key": "dinajpur",
+                "name": "Dinajpur",
+                "tier": "free",
+                "order": 8,
+                "nameBn": "দিনাজপুর",
+                "sms": "DIN",
+                "website": "https://dinajpureducationboard.gov.bd",
+                "websiteUp": true
+            },
+            {
+                "key": "mymensingh",
+                "name": "Mymensingh",
+                "tier": "free",
+                "order": 9,
+                "nameBn": "ময়মনসিংহ",
+                "sms": "MYM",
+                "website": "https://mymensingheducationboard.gov.bd",
+                "websiteUp": true
+            },
+            {
+                "key": "madrasah",
+                "name": "Madrasah",
+                "tier": "free",
+                "order": 10,
+                "nameBn": "মাদ্রাসা",
+                "sms": "MAD",
+                "website": "https://bmeb.gov.bd",
+                "websiteUp": true
+            },
+            {
+                "key": "tec",
+                "name": "Technical",
+                "tier": "free",
+                "order": 11,
+                "nameBn": "কারিগরি",
+                "sms": "TEC",
+                "website": "https://bteb.gov.bd",
+                "websiteUp": true
+            }
+        ],
+        "upstream": [
+            {
+                "key": "primary",
+                "name": "Result source",
+                "tier": "free",
+                "order": 1,
+                "host": "https://eboardresults.com",
+                "mirrors": [],
+                "paths": {
+                    "captcha": "/v2/captcha",
+                    "getres": "/v2/getres",
+                    "challenge": "/_challenge-engine",
+                    "verify": "/_challenge-verify",
+                    "home": "/v2/home"
+                }
+            }
+        ],
+        "settings": [
+            {
+                "key": "sms",
+                "name": "SMS Fallback",
+                "tier": "free",
+                "order": 1,
+                "number": "16222",
+                "hint": "{EXAM} {CODE} {ROLL} {YEAR}"
+            },
+            {
+                "key": "schedule",
+                "name": "Result Schedule",
+                "tier": "free",
+                "order": 2,
+                "ssc2026": "2026-08-10T12:00:00+06:00"
+            },
+            {
+                "key": "notice",
+                "name": "Notice Banner",
+                "tier": "free",
+                "order": 3,
+                "show": true,
+                "level": "info",
+                "text": "🎓 Results will be published on 10 August at 12:00 PM https://www.educationboardresults.gov.bd/",
+                "textBn": "🎓 ১০ আগস্ট দুপুর ১২টায় ফলাফল প্রকাশিত হবে https://www.educationboardresults.gov.bd/"
+            }
+        ],
+        "feeds": [
+            {
+                "key": "www-tbsnews-net-1",
+                "name": "TBS News",
+                "tier": "free",
+                "order": 1,
+                "url": "https://www.tbsnews.net/bangladesh/education/rss.xml",
+                "keywords": []
+            },
+            {
+                "key": "www-thedailystar-net-2",
+                "name": "The Daily Star",
+                "tier": "free",
+                "order": 2,
+                "url": "https://www.thedailystar.net/youth/education/rss.xml",
+                "keywords": []
+            },
+            {
+                "key": "www-thedailystar-net-3",
+                "name": "The Daily Star",
+                "tier": "free",
+                "order": 3,
+                "url": "https://www.thedailystar.net/news/bangladesh/education/rss.xml",
+                "keywords": []
+            },
+            {
+                "key": "www-prothomalo-com-4",
+                "name": "প্রথম আলো",
+                "tier": "free",
+                "order": 4,
+                "url": "https://www.prothomalo.com/stories.rss",
+                "keywords": [
+                    "এসএসসি",
+                    "এইচএসসি",
+                    "পরীক্ষা",
+                    "ফলাফল",
+                    "শিক্ষা বোর্ড",
+                    "ভর্তি",
+                    "শিক্ষার্থী",
+                    "রেজাল্ট",
+                    "মাদ্রাসা"
+                ]
+            },
+            {
+                "key": "www-jagonews24-com-5",
+                "name": "জাগো নিউজ",
+                "tier": "free",
+                "order": 5,
+                "url": "https://www.jagonews24.com/rss/rss.xml",
+                "keywords": [
+                    "এসএসসি",
+                    "এইচএসসি",
+                    "পরীক্ষা",
+                    "ফলাফল",
+                    "শিক্ষা বোর্ড",
+                    "ভর্তি",
+                    "শিক্ষার্থী",
+                    "রেজাল্ট",
+                    "মাদ্রাসা"
+                ]
+            },
+            {
+                "key": "www-risingbd-com-6",
+                "name": "রাইজিংবিডি",
+                "tier": "free",
+                "order": 6,
+                "url": "https://www.risingbd.com/rss/rss.xml",
+                "keywords": [
+                    "এসএসসি",
+                    "এইচএসসি",
+                    "পরীক্ষা",
+                    "ফলাফল",
+                    "শিক্ষা বোর্ড",
+                    "ভর্তি",
+                    "শিক্ষার্থী",
+                    "রেজাল্ট",
+                    "মাদ্রাসা"
+                ]
+            },
+            {
+                "key": "www-banglatribune-com-7",
+                "name": "বাংলা ট্রিবিউন",
+                "tier": "free",
+                "order": 7,
+                "url": "https://www.banglatribune.com/feed/educations",
+                "keywords": []
+            }
+        ]
+    }
+}
