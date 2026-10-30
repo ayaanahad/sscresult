@@ -1,8 +1,8 @@
 {
-    "version": 43,
-    "sha256": "d3c88a9b196a610c287556e66cfb3bc4789c014d1d815eeee5c543598479da56",
-    "signature": "ed25519:uKCrF7Eu7V4QRdVuqY77QyIP/8MV7b4PwlcLaFD20wHekU42ZtAczdDz2HdgwysylVdCxQ1+KdojejHeDYxmAw==",
+    "version": 44,
+    "sha256": "f718dbf879cf984566dabdf75262e169252cdfe830e9f10b78bbb5f0a172fc97",
+    "signature": "ed25519:FDeciESIbOYYAVwCBFHDnvmbOgP51YdGVMhG6YZQx1FXd3mgmeeta+W/54s6ld9lSl0rkdwQ5wlNVTPPVyE4Dg==",
     "bytes": 181705,
-    "published_at": "2026-10-30T17:24:22+00:00",
-    "url": "https://cdn.jsdelivr.net/gh/ayaanahad/sscresult@1fb06cb/allresults/v43.json"
+    "published_at": "2026-10-30T17:28:39+00:00",
+    "url": "https://cdn.jsdelivr.net/gh/ayaanahad/sscresult@f734580/allresults/v44.json"
 }
